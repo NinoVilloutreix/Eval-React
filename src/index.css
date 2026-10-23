@@ -1,2 +1,29 @@
-
 @import "tailwindcss";
+
+@theme inline {
+  --color-orange : var(--clr-orange);
+
+  --color-white: var(--clr-white);
+  --color-grey-500: var(--clr-grey-500);
+  --color-grey-900: var(--clr-grey-900);
+  --color-grey-925: var(--clr-grey-925);
+  --color-grey-950: var(--clr-grey-950);
+  --font-overpass: var(--font-overpass)
+}
+
+@layer base {
+  :root {
+    /* Primary */
+    --clr-orange: hsl(25, 97%, 53%);
+
+    /* Neutral */
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-grey-500: hsl(217, 12%, 63%);  
+    --clr-grey-900: hsl(213, 19%, 18%);
+    --clr-grey-925 : hsl(214, 24%, 13%);
+    --clr-grey-950: hsl(216, 12%, 8%);
+
+    --font-overpass: "Overpass"
+    
+  }
+}
