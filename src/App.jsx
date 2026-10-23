@@ -3,9 +3,7 @@ import Profil from "./components/Profil";
 function App() {
   return (
     <>
-      <Profil />
-      <Profil />
-      <Profil />
+      <p className="text-red-500">a</p>
     </>
   );
 }
